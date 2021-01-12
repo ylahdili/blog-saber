@@ -19,7 +19,7 @@ themeConfig:
 
 plugins:
   - resolve: saber-plugin-query-posts
-  - resolve: saber-plugin-prismjs
+  # - resolve: saber-plugin-prismjs
   # If you want to enable local search:
   - resolve: saber-plugin-search
   - resolve: saber-plugin-query-posts
