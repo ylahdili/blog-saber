@@ -1,10 +1,10 @@
-theme: minima
+theme: tailsaw
 
 siteConfig:
   url: https://example.com
-  author: Author of This Site
-  email: author@your-domain.com
-  description: Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
+  author: Youness Lahdili
+  email: author@gmail.com
+  description: Ghadi ndir: Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
 
 themeConfig:
   nav:
@@ -13,11 +13,15 @@ themeConfig:
     - text: About
       link: /about.html
   social:
-    twitter: saber_land
-    github: egoist
+    twitter: ylahdili
+    github: ylahdili
     rss: true
 
 plugins:
+  - saber-plugin-query-posts
+  - saber-plugin-prismjs
+  # If you want to enable local search:
+  - saber-plugin-search
   - resolve: saber-plugin-query-posts
   - resolve: saber-plugin-feed
     options:
