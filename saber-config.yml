@@ -2,9 +2,9 @@ theme: minima
 
 siteConfig:
   url: https://example.com
-  author: Youness Lahdili
-  email: author@gmail.com
-  description: Ghadi ndir: Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
+  author: Author of This Site
+  email: author@your-domain.com
+  description: Wakha Write an awesome description for your new site here. You can edit this line in saber-config.yml. It will appear in your document head meta (for Google search results) site description.
 
 themeConfig:
   nav:
@@ -13,8 +13,8 @@ themeConfig:
     - text: About
       link: /about.html
   social:
-    twitter: ylahdili
-    github: ylahdili
+    twitter: saber_land
+    github: egoist
     rss: true
 
 plugins:
